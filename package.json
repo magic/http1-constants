@@ -1,0 +1,55 @@
+{
+  "name": "@magic/http1-constants",
+  "version": "0.0.1-alpha.0",
+  "homepage": "https://magic.github.io/http1-constants/",
+  "description": "collection of http1 constants, http 1(.1) equivalent to http2.constants.",
+  "type": "module",
+  "scripts": {
+    "start": "t -p",
+    "format": "f -w --exclude docs",
+    "test": "t",
+    "build": "npm run test && npm run lint && npm run format",
+    "lint": "tsc"
+  },
+  "main": "src/index.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "src",
+    "types"
+  ],
+  "engines": {
+    "node": ">=14.15.4"
+  },
+  "engineStrict": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magic/http1-constants.git"
+  },
+  "bugs": {
+    "url": "https://github.com/magic/http1-constants/issues"
+  },
+  "keywords": [
+    "magic",
+    "snake_case",
+    "snake",
+    "kebab-case",
+    "kebab",
+    "camel",
+    "pascal",
+    "case",
+    "convert"
+  ],
+  "devDependencies": {
+    "@magic/format": "0.0.68",
+    "@magic/test": "0.2.24",
+    "typescript": "5.9.3"
+  },
+  "author": "Wizards & Witches",
+  "license": "AGPL-3.0",
+  "contributors": [
+    {
+      "name": "jascha ehrenreich",
+      "github": "jaeh"
+    }
+  ]
+}
