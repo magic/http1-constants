@@ -28,9 +28,15 @@ constants.status.OK === 200
 
 #### <a name="changelog"></a>changelog
 
-##### 0.0.2 - unreleased
+##### 0.0.3 - unreleased
 
 ...
+
+##### 0.0.2
+
+- add newer headers
+- all headers are Title-Case
+- update tests
 
 ##### 0.0.1
 
