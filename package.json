@@ -8,7 +8,7 @@
     "start": "t -p",
     "format": "f -w --exclude docs",
     "test": "t",
-    "build": "npm run lint && npm run format",
+    "build": "tsc && npm run format",
     "prepublishOnly": "npm run test && npm run build",
     "lint": "tsc --noEmit"
   },
