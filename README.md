@@ -30,7 +30,8 @@ constants.status.OK === 200
 
 ##### 0.0.3 - unreleased
 
-...
+- headers are lowercase
+- npm run build actually builds the types
 
 ##### 0.0.2
 
