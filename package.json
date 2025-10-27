@@ -8,8 +8,9 @@
     "start": "t -p",
     "format": "f -w --exclude docs",
     "test": "t",
-    "build": "npm run test && npm run lint && npm run format",
-    "lint": "tsc"
+    "build": "npm run lint && npm run format",
+    "prepublishOnly": "npm run test && npm run build",
+    "lint": "tsc --noEmit"
   },
   "main": "src/index.js",
   "types": "types/index.d.ts",
