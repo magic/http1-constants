@@ -1,6 +1,6 @@
 {
   "name": "@magic/http1-constants",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "https://magic.github.io/http1-constants/",
   "description": "collection of http1 constants, http 1(.1) equivalent to http2.constants.",
   "type": "module",
