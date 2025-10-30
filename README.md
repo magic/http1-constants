@@ -34,7 +34,7 @@ constants.status.OK === 200
 
 - update dependencies
 
-##### 0.0.3 
+##### 0.0.3
 
 - headers are lowercase
 - npm run build actually builds the types
