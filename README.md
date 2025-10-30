@@ -28,7 +28,13 @@ constants.status.OK === 200
 
 #### <a name="changelog"></a>changelog
 
-##### 0.0.3 - unreleased
+##### 0.0.5 - unreleased
+
+##### 0.0.4
+
+- update dependencies
+
+##### 0.0.3 
 
 - headers are lowercase
 - npm run build actually builds the types
